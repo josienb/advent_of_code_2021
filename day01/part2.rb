@@ -1,5 +1,7 @@
+input_file = File.join(File.dirname(__FILE__), 'part1_input')
+
 measurements = []
-File.open('part1_input').each { |m| measurements << m.chomp.to_i }
+File.open(input_file).each { |m| measurements << m.chomp.to_i }
 
 measurement_windows = []
 measurements.each_with_index do |m, i|
