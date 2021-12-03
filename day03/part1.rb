@@ -1,4 +1,4 @@
-input_file = File.join(File.dirname(__FILE__), 'part1_input')
+input_file = File.join(File.dirname(__FILE__), 'input')
 
 codes = File.open(input_file).map { |b| b.chomp.chars }.transpose
 

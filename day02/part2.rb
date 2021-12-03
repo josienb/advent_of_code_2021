@@ -1,4 +1,4 @@
-input_file = File.join(File.dirname(__FILE__), 'part1_input')
+input_file = File.join(File.dirname(__FILE__), 'input')
 
 aim = 0
 depth = 0
