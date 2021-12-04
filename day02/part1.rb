@@ -1,4 +1,4 @@
-input_file = File.join(File.dirname(__FILE__), 'input')
+input_file = File.join(File.dirname(__FILE__), 'input.txt')
 
 moves = {}
 moves['forward'] = []

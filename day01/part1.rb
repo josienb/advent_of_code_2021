@@ -1,4 +1,4 @@
-input_file = File.join(File.dirname(__FILE__), 'input')
+input_file = File.join(File.dirname(__FILE__), 'input.txt')
 
 measurements = []
 File.open(input_file).each { |m| measurements << m.chomp.to_i }

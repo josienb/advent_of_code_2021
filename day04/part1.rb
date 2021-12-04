@@ -20,7 +20,7 @@ class BingoBoard
   end
 end
 
-input_file = File.join(File.dirname(__FILE__), 'input')
+input_file = File.join(File.dirname(__FILE__), 'input.txt')
 
 bingo_numbers = File.open(input_file).first.split(',').map(&:chomp).map(&:to_i)
 
