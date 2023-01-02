@@ -5,9 +5,16 @@ Emphasis on solutions, not on beautiful code!
 
 ## Run
 
-Clone the repo, cd into the repo folder, then:
+Clone the repo, cd into the repo folder, then:  
 
-`ruby day01/part1.rb`
-`ruby day01/part2.rb`
+```bash
+$ ruby day01/part1.rb
+$ ruby day01/part2.rb
+$ ...
+```
 
-etc.
+Or execute `main` to run all scripts consecutively:
+
+```bash
+$ ruby main.rb
+```
